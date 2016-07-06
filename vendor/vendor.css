@@ -1,0 +1,258 @@
+    @font-face {
+        font-family: "Glyphs";
+        src: url("Glyphs.woff") format('woff');
+    }
+    
+    #about:before {
+        font-family: "Glyphs";
+        color: cadetblue;
+        content: "\e039";
+        margin-right: 6px;
+    }
+    
+    #experience:before {
+        font-family: "Glyphs";
+        color: cadetblue;
+        content: "\e03a";
+        margin-right: 6px;
+    }
+    
+    #awards:before {
+        font-family: "Glyphs";
+        color: cadetblue;
+        content: "\e047";
+        margin-right: 6px;
+    }
+    
+    #skills:before {
+        font-family: "Glyphs";
+        color: cadetblue;
+        content: "\e03c";
+        margin-right: 6px;
+    }
+    
+    #languages:before {
+        font-family: "Glyphs";
+        color: cadetblue;
+        content: "\e051";
+        margin-right: 6px;
+    }
+    
+    #organizations:before {
+        font-family: "Glyphs";
+        color: cadetblue;
+        content: "\e043";
+        margin-right: 6px;
+    }
+    
+    #projects:before {
+        font-family: "Glyphs";
+        color: cadetblue;
+        content: "\e03e";
+        margin-right: 6px;
+    }
+    
+    #volunteering:before {
+        font-family: "Glyphs";
+        color: cadetblue;
+        content: "\e041";
+        margin-right: 6px;
+    }
+    
+    #play:before {
+        font-family: "Glyphs";
+        color: cadetblue;
+        content: "\e076";
+    }
+    
+    .project:before {
+        font-family: "Glyphs";
+        color: #FDC500;
+        content: "\e081";
+        font-size: 37px;
+        margin-right: 6px;
+    }
+    
+    .hue {
+        background-image: -webkit-linear-gradient(90deg, #FFFFFF, #feab3a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 60s infinite linear;
+    }
+    
+    .read-js-effect {
+        animation: read-js 3s linear;
+    }
+    
+    @-webkit-keyframes hue {
+        from {
+            -webkit-filter: hue-rotate(0deg);
+        }
+        to {
+            -webkit-filter: hue-rotate(-360deg);
+        }
+    }
+    
+    @-webkit-keyframes skills {
+        from {
+            -webkit-filter: hue-rotate(0deg);
+        }
+        to {
+            -webkit-filter: hue-rotate(-360deg);
+        }
+    }
+    
+    @-webkit-keyframes skills1 {
+        from {
+            -webkit-filter: hue-rotate(-360deg);
+        }
+        to {
+            -webkit-filter: hue-rotate(0deg);
+        }
+    }
+    
+    @-webkit-keyframes tags {
+        from {
+            -webkit-filter: hue-rotate(-360deg);
+        }
+        to {
+            -webkit-filter: hue-rotate(10deg);
+        }
+    }
+    
+    @-webkit-keyframes read-js {
+        from {
+            -webkit-filter: opacity(0.0);
+        }
+        to {
+            -webkit-filter: opacity(1);
+        }
+    }
+    
+    .skills p {
+        border-left-width: 10px;
+        background-color: #f8f8f8;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 15px 20px;
+        border-left: 9px solid #11D0C2;
+        width: auto;
+        margin-left: -4px;
+    }
+    
+    .skills p:before {
+        font-family: "Glyphs";
+        color: yellowgreen;
+        content: "\e063";
+        margin-right: 5px;
+    }
+    
+    .colors-effect {
+        background-image: -webkit-linear-gradient(90deg, #FFFFFF, #feab3a);
+        -webkit-background-clip: text;
+    }
+    
+    .awards:before {
+        font-family: "Glyphs";
+        color: #FDC500;
+        content: "\e040";
+        font-size: 20px;
+        margin-right: -1px;
+    }
+    
+    .tabs span {
+        border-left-width: 10px;
+        background-color: #f8f8f8;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 15px 20px;
+        border-left: 9px solid #11D0C2;
+        width: 79px;
+        margin-left: -4px;
+    }
+    
+    .read-js {
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    
+    .tabs show {}
+    
+    .read-js show:before {
+        font-family: "Glyphs";
+        color: #FDC500;
+        content: "\e0aa";
+        animation: hue 5s infinite linear;
+        display: block;
+        margin-bottom: -43px;
+        margin-left: -29px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        padding-top: 6px;
+        padding-right: 12px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    
+    .btn-demo {
+        color: white;
+        background-color: #008ace;
+        animation: hue 5s infinite linear;
+    }
+    
+    .btn-demo:before {
+        font-family: "Glyphs";
+        color: black;
+        content: "\e035";
+        margin-right: 2px
+    }
+    
+    .btn-demo:after {
+        content: "Demonstration";
+    }
+    
+    .btn-git {
+        color: white;
+        background-color: #008ace;
+        animation: tags 5s infinite linear;
+        background-image: url(svg/btn.svg);
+        background-repeat: no-repeat;
+        background-position-x: 0px;
+        background-position-y: 7px
+    }
+    
+    .btn-git:before {
+        content: "Repository";
+        margin-left: 16px;
+    }
+    
+    #accounts:before {
+        font-family: "Glyphs";
+        color: cadetblue;
+        content: "\e098";
+        margin-right: 6px;
+    }
+    
+    .skills {
+        display: flex;
+    }
